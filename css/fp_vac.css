@@ -1,0 +1,38 @@
+
+
+/* Main Styles */
+main {
+    overflow: auto;
+    position: relative;
+    height: 450px;
+    width: 100%;
+ }
+
+ /* Infographic Styles */
+div.infobox {
+    position: absolute;
+ }
+ 
+ 
+ /* First Infographic */
+ div#info1 {
+    display: block;
+    top: 35px;
+    left: 2%;
+ }
+ 
+ 
+ /* Second Infographic */
+ div#info2 {
+    display: block;
+    top: 185px;
+    left: 35%;
+ }
+ 
+ 
+ /* Third Infographic */
+ div#info3 {
+    display: block;
+    top: 120px;
+    left: 68%;
+ }

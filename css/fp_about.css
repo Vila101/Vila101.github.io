@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+
+/* Body Header Styles */
+body>header>img {
+   display: block;
+   width: 50%;
+}
+
+p>img {
+   border-radius: 60%;
+   width: 260px;
+   height: 270px;
+}
+
+#snapchat {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+body>header>nav.horizontalNavigation li {
+   width: 20%;
+}
+
+body {
+font-size: 1.1em;
+}
+
+/* Horizontal Navigation Styles */
+nav.horizontalNavigation li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
+
+/* Table Styles */
+
+table {
+   border: 30px black;
+   border-collapse: collapse;
+}
+
+th,
+td {
+   border: 2px solid rgb(0, 0, 0);
+   padding: 3px;
+   text-align: left;
+   vertical-align: top;
+   font-size: 1.1em;
+}
+
+caption {
+   caption-side: top;
+   text-align: center;
+   font-size: 1em;
+}
+
+table col#firstCol {
+   background-color: rgb(172, 225, 255);
+   width: 160px;
+}
+
+table thead {
+   background-color: rgb(225, 255, 208);
+}
+
+/* Footer Styles */
+footer {
+   background-color: rgb(207, 187, 206);
+   clear: left;
+   text-align: center;
+}
+
+footer::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+footer>nav.verticalNavigation {
+   float: left;
+   width: 22%;
+}
+
+footer>section#contactInfo {
+   float: left;
+   width: 34%;
+}

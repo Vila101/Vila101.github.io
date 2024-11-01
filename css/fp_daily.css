@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: new romantics;
+	src: url(../Fonts/new_romantics.zip) format('zip'),
+	     url(../Fonts/laurasia.zip) format('zip');
+}
+
+
+/* HTML and Body Styles */
+html {
+    background-color: rgba(254, 222, 251, 0.63); 	
+ }
+ 
+ /* Page Body Styles */
+ body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   background-color: rgb(255, 205, 250);  
+   font-family: Arial, sans-serif;
+   font-size: 1.2em;
+ }
+ 
+/* Page Header Styles */
+
+ body > header > img {
+   display: block;
+   width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 25%;
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontalNavigation > ul > li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   background-color: rgb(226, 194, 198);
+   display: block;
+   font-family: new romantics;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+} 
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(0, 0, 0);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(245, 167, 185);
+} 
+
+/* Heading Styles */
+h1 {
+   text-indent: 1em;
+}
+
+body > header h1 {
+   font-size: 2.4em;
+   line-height: 2.4em;
+   font-family: new romantics;
+   letter-spacing: 0.3em;
+   text-align: center;
+   font-weight: normal;
+   color: rgb(95, 39, 63);
+}
+
+body > h1 > article, body > section > h1 > article, body > article > section {
+   font-family: Arial, sans-serif;
+   padding: 0.5em;
+}
+
+body > article > h1, body > section > h1 {
+   font-size: 1.3em;
+   background-color: rgb(245, 167, 185);
+   color: rgb(97, 82, 95);
+}
+
+section > article > h1 {
+   font-size: 1.1em;
+}
+
+/* Paragraph Styles */
+
+p {
+   margin: 1em;
+   font-size: 0.9em;
+}
+
+/* Right Column Styles */
+
+iframe {
+   display: block;
+   width: 80%;
+   margin: 10px auto;
+}
+
+/* Left Column Styles */
+
+img {
+   width: 68%;
+   display: block;
+}
+
+/* Footer Styles */
+
+footer {
+   color: rgb(97, 82, 95);
+   background-color: rgb(207, 187, 206);
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}
